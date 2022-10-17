@@ -32,7 +32,7 @@ namespace DotnetIteration
         //
         public static IEnumerable<string> Yelling(List<string> words)
         {
-            throw new System.NotImplementedException();
+            return words.Select(word => word.ToUpper());
         }
 
 
