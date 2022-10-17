@@ -43,7 +43,7 @@ namespace DotnetIteration
         // 
         public static IEnumerable<int> Double(List<int> numbers)
         {
-            throw new System.NotImplementedException();
+            return numbers.Select(number => number * 2);
         }
 
 
